@@ -5,8 +5,7 @@ import pickle
 import os
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Complete Streamlit App Code
-# Set page configuration
+
 st.set_page_config(
     page_title="🛒 Shopper Spectrum",
     page_icon="🛒",
@@ -14,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for styling
+
 st.markdown("""
     <style>
     .main {
@@ -272,4 +271,5 @@ def main():
         st.dataframe(sample_customers[['CustomerID', 'Recency', 'Frequency', 'Monetary']], use_container_width=True)
 
 if __name__ == "__main__":
+
     main()
