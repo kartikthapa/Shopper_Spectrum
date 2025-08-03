@@ -1,5 +1,3 @@
-# Shopper Spectrum: Customer Segmentation and Product Recommendations
-# Complete Implementation with Product Name Support
 
 import pandas as pd
 import numpy as np
@@ -704,4 +702,5 @@ def create_sample_data():
 
 if __name__ == "__main__":
     main()
+
     
